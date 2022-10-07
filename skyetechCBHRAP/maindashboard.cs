@@ -47,5 +47,12 @@ namespace skyetechCBHRAP
             dbmanager.BringToFront();
             dbmanager.Show();
         }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Logout successful, thank you for using CBHRAP.", "Skyetech: CBHRAP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
+            new login().Show();
+        }
     }
 }

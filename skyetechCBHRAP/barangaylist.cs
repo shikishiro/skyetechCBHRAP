@@ -14,7 +14,9 @@ namespace skyetechCBHRAP
     public partial class barangaylist : Form
     {
         //Dataconnection
-        OleDbConnection conn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\\cbhrapdatatest.accdb");
+        // OleDbConnection conn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\\cbhrapdatatest.accdb"); //TEST CONNECTION
+        OleDbConnection conn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\cbhrapdatatest.accdb");
+
 
         //String Declaration
 

@@ -74,7 +74,7 @@
             this.txt_barangay.Location = new System.Drawing.Point(12, 302);
             this.txt_barangay.Name = "txt_barangay";
             this.txt_barangay.Size = new System.Drawing.Size(302, 20);
-            this.txt_barangay.TabIndex = 4;
+            this.txt_barangay.TabIndex = 3;
             this.txt_barangay.Visible = false;
             // 
             // panel_nav
@@ -289,7 +289,7 @@
             this.input_infant.Location = new System.Drawing.Point(24, 49);
             this.input_infant.Name = "input_infant";
             this.input_infant.Size = new System.Drawing.Size(136, 22);
-            this.input_infant.TabIndex = 20;
+            this.input_infant.TabIndex = 4;
             this.input_infant.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // input_adult
@@ -298,7 +298,7 @@
             this.input_adult.Location = new System.Drawing.Point(24, 98);
             this.input_adult.Name = "input_adult";
             this.input_adult.Size = new System.Drawing.Size(136, 22);
-            this.input_adult.TabIndex = 21;
+            this.input_adult.TabIndex = 5;
             this.input_adult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // input_seniorcitizen
@@ -307,7 +307,7 @@
             this.input_seniorcitizen.Location = new System.Drawing.Point(24, 147);
             this.input_seniorcitizen.Name = "input_seniorcitizen";
             this.input_seniorcitizen.Size = new System.Drawing.Size(136, 22);
-            this.input_seniorcitizen.TabIndex = 22;
+            this.input_seniorcitizen.TabIndex = 6;
             this.input_seniorcitizen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // input_male
@@ -316,7 +316,7 @@
             this.input_male.Location = new System.Drawing.Point(24, 196);
             this.input_male.Name = "input_male";
             this.input_male.Size = new System.Drawing.Size(136, 22);
-            this.input_male.TabIndex = 23;
+            this.input_male.TabIndex = 7;
             this.input_male.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // input_female
@@ -325,7 +325,7 @@
             this.input_female.Location = new System.Drawing.Point(24, 245);
             this.input_female.Name = "input_female";
             this.input_female.Size = new System.Drawing.Size(136, 22);
-            this.input_female.TabIndex = 24;
+            this.input_female.TabIndex = 8;
             this.input_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btn_update
@@ -341,7 +341,7 @@
             this.btn_update.Name = "btn_update";
             this.btn_update.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btn_update.Size = new System.Drawing.Size(251, 40);
-            this.btn_update.TabIndex = 25;
+            this.btn_update.TabIndex = 9;
             this.btn_update.Text = "Update";
             this.btn_update.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_update.UseVisualStyleBackColor = true;

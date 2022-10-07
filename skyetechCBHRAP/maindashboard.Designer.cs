@@ -36,7 +36,6 @@
             this.lbl_welcome = new System.Windows.Forms.Label();
             this.panel_nav = new System.Windows.Forms.Panel();
             this.lbl_mainnav = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.btn_databasemanager = new System.Windows.Forms.Button();
             this.btn_barangaylist = new System.Windows.Forms.Button();
             this.btn_dashboard = new System.Windows.Forms.Button();
@@ -55,7 +54,6 @@
             this.panel_sidemenu.Controls.Add(this.lbl_datetime);
             this.panel_sidemenu.Controls.Add(this.lbl_welcome);
             this.panel_sidemenu.Controls.Add(this.panel_nav);
-            this.panel_sidemenu.Controls.Add(this.button5);
             this.panel_sidemenu.Controls.Add(this.btn_databasemanager);
             this.panel_sidemenu.Controls.Add(this.btn_barangaylist);
             this.panel_sidemenu.Controls.Add(this.btn_dashboard);
@@ -118,22 +116,6 @@
             this.lbl_mainnav.Size = new System.Drawing.Size(111, 17);
             this.lbl_mainnav.TabIndex = 0;
             this.lbl_mainnav.Text = "Main Navigation";
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.Control;
-            this.button5.Location = new System.Drawing.Point(12, 416);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.button5.Size = new System.Drawing.Size(251, 40);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // btn_databasemanager
             // 
@@ -209,6 +191,7 @@
             this.btn_logout.Text = "Logout";
             this.btn_logout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_logout.UseVisualStyleBackColor = true;
+            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
             // 
             // panel_top
             // 
@@ -255,7 +238,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel_sidemenu;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btn_databasemanager;
         private System.Windows.Forms.Button btn_barangaylist;
         private System.Windows.Forms.Button btn_dashboard;
