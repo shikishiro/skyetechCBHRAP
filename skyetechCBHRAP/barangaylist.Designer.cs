@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(barangaylist));
             this.panel_sidenav = new System.Windows.Forms.Panel();
+            this.txt_barangay = new System.Windows.Forms.TextBox();
             this.panel_nav = new System.Windows.Forms.Panel();
             this.lbl_mainnav = new System.Windows.Forms.Label();
             this.btn_initiatedata = new System.Windows.Forms.Button();
@@ -38,10 +39,11 @@
             this.display_barangayname = new System.Windows.Forms.Label();
             this.lbl_brgy = new System.Windows.Forms.Label();
             this.panel_population = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.display_totalpopulation = new System.Windows.Forms.Label();
-            this.display_female = new System.Windows.Forms.Label();
+            this.display_total_female = new System.Windows.Forms.Label();
             this.lbl_female = new System.Windows.Forms.Label();
-            this.display_male = new System.Windows.Forms.Label();
+            this.display_total_male = new System.Windows.Forms.Label();
             this.lbl_male = new System.Windows.Forms.Label();
             this.display_seniorcitizen = new System.Windows.Forms.Label();
             this.lbl_seniorcitizen = new System.Windows.Forms.Label();
@@ -51,14 +53,16 @@
             this.lbl_infant = new System.Windows.Forms.Label();
             this.panel_populationtitle = new System.Windows.Forms.Panel();
             this.lbl_population = new System.Windows.Forms.Label();
-            this.txt_barangay = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.display_toddler = new System.Windows.Forms.Label();
+            this.lbl_toddler = new System.Windows.Forms.Label();
+            this.display_child = new System.Windows.Forms.Label();
+            this.lbl_child = new System.Windows.Forms.Label();
             this.panel_sidenav.SuspendLayout();
             this.panel_nav.SuspendLayout();
             this.panel_barangayinformation.SuspendLayout();
             this.panel_population.SuspendLayout();
-            this.panel_populationtitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel_populationtitle.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_sidenav
@@ -73,6 +77,14 @@
             this.panel_sidenav.Name = "panel_sidenav";
             this.panel_sidenav.Size = new System.Drawing.Size(332, 1024);
             this.panel_sidenav.TabIndex = 0;
+            // 
+            // txt_barangay
+            // 
+            this.txt_barangay.Location = new System.Drawing.Point(12, 302);
+            this.txt_barangay.Name = "txt_barangay";
+            this.txt_barangay.Size = new System.Drawing.Size(302, 20);
+            this.txt_barangay.TabIndex = 4;
+            this.txt_barangay.Visible = false;
             // 
             // panel_nav
             // 
@@ -205,11 +217,15 @@
             // panel_population
             // 
             this.panel_population.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.panel_population.Controls.Add(this.display_child);
+            this.panel_population.Controls.Add(this.lbl_child);
+            this.panel_population.Controls.Add(this.display_toddler);
+            this.panel_population.Controls.Add(this.lbl_toddler);
             this.panel_population.Controls.Add(this.pictureBox1);
             this.panel_population.Controls.Add(this.display_totalpopulation);
-            this.panel_population.Controls.Add(this.display_female);
+            this.panel_population.Controls.Add(this.display_total_female);
             this.panel_population.Controls.Add(this.lbl_female);
-            this.panel_population.Controls.Add(this.display_male);
+            this.panel_population.Controls.Add(this.display_total_male);
             this.panel_population.Controls.Add(this.lbl_male);
             this.panel_population.Controls.Add(this.display_seniorcitizen);
             this.panel_population.Controls.Add(this.lbl_seniorcitizen);
@@ -220,8 +236,18 @@
             this.panel_population.Controls.Add(this.panel_populationtitle);
             this.panel_population.Location = new System.Drawing.Point(160, 168);
             this.panel_population.Name = "panel_population";
-            this.panel_population.Size = new System.Drawing.Size(450, 290);
+            this.panel_population.Size = new System.Drawing.Size(495, 333);
             this.panel_population.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(395, 192);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(96, 96);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
             // 
             // display_totalpopulation
             // 
@@ -229,51 +255,51 @@
             this.display_totalpopulation.Dock = System.Windows.Forms.DockStyle.Right;
             this.display_totalpopulation.Font = new System.Drawing.Font("FuturaBT-BoldCondensed", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.display_totalpopulation.ForeColor = System.Drawing.SystemColors.Control;
-            this.display_totalpopulation.Location = new System.Drawing.Point(221, 0);
+            this.display_totalpopulation.Location = new System.Drawing.Point(266, 0);
             this.display_totalpopulation.Name = "display_totalpopulation";
             this.display_totalpopulation.Size = new System.Drawing.Size(229, 77);
             this.display_totalpopulation.TabIndex = 11;
             this.display_totalpopulation.Text = "####";
             // 
-            // display_female
+            // display_total_female
             // 
-            this.display_female.AutoSize = true;
-            this.display_female.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display_female.ForeColor = System.Drawing.SystemColors.Control;
-            this.display_female.Location = new System.Drawing.Point(94, 185);
-            this.display_female.Name = "display_female";
-            this.display_female.Size = new System.Drawing.Size(46, 21);
-            this.display_female.TabIndex = 10;
-            this.display_female.Text = "####";
+            this.display_total_female.AutoSize = true;
+            this.display_total_female.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display_total_female.ForeColor = System.Drawing.SystemColors.Control;
+            this.display_total_female.Location = new System.Drawing.Point(94, 247);
+            this.display_total_female.Name = "display_total_female";
+            this.display_total_female.Size = new System.Drawing.Size(46, 21);
+            this.display_total_female.TabIndex = 10;
+            this.display_total_female.Text = "####";
             // 
             // lbl_female
             // 
             this.lbl_female.AutoSize = true;
             this.lbl_female.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_female.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_female.Location = new System.Drawing.Point(19, 185);
+            this.lbl_female.Location = new System.Drawing.Point(19, 247);
             this.lbl_female.Name = "lbl_female";
             this.lbl_female.Size = new System.Drawing.Size(69, 21);
             this.lbl_female.TabIndex = 9;
             this.lbl_female.Text = "Female:";
             // 
-            // display_male
+            // display_total_male
             // 
-            this.display_male.AutoSize = true;
-            this.display_male.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display_male.ForeColor = System.Drawing.SystemColors.Control;
-            this.display_male.Location = new System.Drawing.Point(77, 146);
-            this.display_male.Name = "display_male";
-            this.display_male.Size = new System.Drawing.Size(46, 21);
-            this.display_male.TabIndex = 8;
-            this.display_male.Text = "####";
+            this.display_total_male.AutoSize = true;
+            this.display_total_male.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display_total_male.ForeColor = System.Drawing.SystemColors.Control;
+            this.display_total_male.Location = new System.Drawing.Point(77, 208);
+            this.display_total_male.Name = "display_total_male";
+            this.display_total_male.Size = new System.Drawing.Size(46, 21);
+            this.display_total_male.TabIndex = 8;
+            this.display_total_male.Text = "####";
             // 
             // lbl_male
             // 
             this.lbl_male.AutoSize = true;
             this.lbl_male.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_male.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_male.Location = new System.Drawing.Point(19, 146);
+            this.lbl_male.Location = new System.Drawing.Point(19, 208);
             this.lbl_male.Name = "lbl_male";
             this.lbl_male.Size = new System.Drawing.Size(52, 21);
             this.lbl_male.TabIndex = 7;
@@ -284,7 +310,7 @@
             this.display_seniorcitizen.AutoSize = true;
             this.display_seniorcitizen.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.display_seniorcitizen.ForeColor = System.Drawing.SystemColors.Control;
-            this.display_seniorcitizen.Location = new System.Drawing.Point(145, 109);
+            this.display_seniorcitizen.Location = new System.Drawing.Point(145, 172);
             this.display_seniorcitizen.Name = "display_seniorcitizen";
             this.display_seniorcitizen.Size = new System.Drawing.Size(46, 21);
             this.display_seniorcitizen.TabIndex = 6;
@@ -295,7 +321,7 @@
             this.lbl_seniorcitizen.AutoSize = true;
             this.lbl_seniorcitizen.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_seniorcitizen.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_seniorcitizen.Location = new System.Drawing.Point(19, 109);
+            this.lbl_seniorcitizen.Location = new System.Drawing.Point(19, 172);
             this.lbl_seniorcitizen.Name = "lbl_seniorcitizen";
             this.lbl_seniorcitizen.Size = new System.Drawing.Size(120, 21);
             this.lbl_seniorcitizen.TabIndex = 5;
@@ -306,7 +332,7 @@
             this.display_adult.AutoSize = true;
             this.display_adult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.display_adult.ForeColor = System.Drawing.SystemColors.Control;
-            this.display_adult.Location = new System.Drawing.Point(81, 72);
+            this.display_adult.Location = new System.Drawing.Point(81, 134);
             this.display_adult.Name = "display_adult";
             this.display_adult.Size = new System.Drawing.Size(46, 21);
             this.display_adult.TabIndex = 4;
@@ -317,7 +343,7 @@
             this.lbl_adult.AutoSize = true;
             this.lbl_adult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_adult.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_adult.Location = new System.Drawing.Point(19, 72);
+            this.lbl_adult.Location = new System.Drawing.Point(19, 134);
             this.lbl_adult.Name = "lbl_adult";
             this.lbl_adult.Size = new System.Drawing.Size(56, 21);
             this.lbl_adult.TabIndex = 3;
@@ -328,7 +354,7 @@
             this.display_infant.AutoSize = true;
             this.display_infant.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.display_infant.ForeColor = System.Drawing.SystemColors.Control;
-            this.display_infant.Location = new System.Drawing.Point(85, 33);
+            this.display_infant.Location = new System.Drawing.Point(85, 23);
             this.display_infant.Name = "display_infant";
             this.display_infant.Size = new System.Drawing.Size(46, 21);
             this.display_infant.TabIndex = 2;
@@ -339,7 +365,7 @@
             this.lbl_infant.AutoSize = true;
             this.lbl_infant.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_infant.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_infant.Location = new System.Drawing.Point(19, 33);
+            this.lbl_infant.Location = new System.Drawing.Point(19, 23);
             this.lbl_infant.Name = "lbl_infant";
             this.lbl_infant.Size = new System.Drawing.Size(60, 21);
             this.lbl_infant.TabIndex = 1;
@@ -350,9 +376,9 @@
             this.panel_populationtitle.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.panel_populationtitle.Controls.Add(this.lbl_population);
             this.panel_populationtitle.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_populationtitle.Location = new System.Drawing.Point(0, 245);
+            this.panel_populationtitle.Location = new System.Drawing.Point(0, 288);
             this.panel_populationtitle.Name = "panel_populationtitle";
-            this.panel_populationtitle.Size = new System.Drawing.Size(450, 45);
+            this.panel_populationtitle.Size = new System.Drawing.Size(495, 45);
             this.panel_populationtitle.TabIndex = 0;
             // 
             // lbl_population
@@ -368,23 +394,49 @@
             this.lbl_population.Text = "Population";
             this.lbl_population.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txt_barangay
+            // display_toddler
             // 
-            this.txt_barangay.Location = new System.Drawing.Point(12, 302);
-            this.txt_barangay.Name = "txt_barangay";
-            this.txt_barangay.Size = new System.Drawing.Size(302, 20);
-            this.txt_barangay.TabIndex = 4;
-            this.txt_barangay.Visible = false;
+            this.display_toddler.AutoSize = true;
+            this.display_toddler.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display_toddler.ForeColor = System.Drawing.SystemColors.Control;
+            this.display_toddler.Location = new System.Drawing.Point(93, 59);
+            this.display_toddler.Name = "display_toddler";
+            this.display_toddler.Size = new System.Drawing.Size(46, 21);
+            this.display_toddler.TabIndex = 14;
+            this.display_toddler.Text = "####";
             // 
-            // pictureBox1
+            // lbl_toddler
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(354, 146);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(96, 96);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
+            this.lbl_toddler.AutoSize = true;
+            this.lbl_toddler.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_toddler.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbl_toddler.Location = new System.Drawing.Point(19, 59);
+            this.lbl_toddler.Name = "lbl_toddler";
+            this.lbl_toddler.Size = new System.Drawing.Size(73, 21);
+            this.lbl_toddler.TabIndex = 13;
+            this.lbl_toddler.Text = "Toddler:";
+            // 
+            // display_child
+            // 
+            this.display_child.AutoSize = true;
+            this.display_child.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display_child.ForeColor = System.Drawing.SystemColors.Control;
+            this.display_child.Location = new System.Drawing.Point(85, 96);
+            this.display_child.Name = "display_child";
+            this.display_child.Size = new System.Drawing.Size(46, 21);
+            this.display_child.TabIndex = 16;
+            this.display_child.Text = "####";
+            // 
+            // lbl_child
+            // 
+            this.lbl_child.AutoSize = true;
+            this.lbl_child.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_child.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbl_child.Location = new System.Drawing.Point(19, 96);
+            this.lbl_child.Name = "lbl_child";
+            this.lbl_child.Size = new System.Drawing.Size(54, 21);
+            this.lbl_child.TabIndex = 15;
+            this.lbl_child.Text = "Child:";
             // 
             // barangaylist
             // 
@@ -406,9 +458,9 @@
             this.panel_barangayinformation.PerformLayout();
             this.panel_population.ResumeLayout(false);
             this.panel_population.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel_populationtitle.ResumeLayout(false);
             this.panel_populationtitle.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -430,14 +482,18 @@
         private System.Windows.Forms.Label lbl_adult;
         private System.Windows.Forms.Label display_infant;
         private System.Windows.Forms.Label lbl_infant;
-        private System.Windows.Forms.Label display_female;
+        private System.Windows.Forms.Label display_total_female;
         private System.Windows.Forms.Label lbl_female;
-        private System.Windows.Forms.Label display_male;
+        private System.Windows.Forms.Label display_total_male;
         private System.Windows.Forms.Label lbl_male;
         private System.Windows.Forms.Label display_totalpopulation;
         private System.Windows.Forms.Label lbl_brgy;
         private System.Windows.Forms.Label display_barangayname;
         private System.Windows.Forms.TextBox txt_barangay;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label display_child;
+        private System.Windows.Forms.Label lbl_child;
+        private System.Windows.Forms.Label display_toddler;
+        private System.Windows.Forms.Label lbl_toddler;
     }
 }

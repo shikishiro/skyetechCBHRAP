@@ -22,7 +22,7 @@ namespace skyetechCBHRAP
         private void btn_login_Click(object sender, EventArgs e)
         {
             //CHECKING LOGIN INFORMATION
-            if (input_user.Text == "admin" && input_password.Text == "admin12345")
+            if (input_user.Text == "admin" && input_password.Text == "10121")
             {
                 MessageBox.Show("Login successful", "Skyetech: CBHRAP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 mainform.Show();
