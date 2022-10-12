@@ -1728,6 +1728,30 @@ namespace skyetechCBHRAP {
             
             private global::System.Data.DataColumn columnFEMALE;
             
+            private global::System.Data.DataColumn columnINFANT_MALE;
+            
+            private global::System.Data.DataColumn columnINFANT_FEMALE;
+            
+            private global::System.Data.DataColumn columnTODDLER;
+            
+            private global::System.Data.DataColumn columnTODDLER_MALE;
+            
+            private global::System.Data.DataColumn columnTODDLER_FEMALE;
+            
+            private global::System.Data.DataColumn columnCHILD;
+            
+            private global::System.Data.DataColumn columnCHILD_MALE;
+            
+            private global::System.Data.DataColumn columnCHILD_FEMALE;
+            
+            private global::System.Data.DataColumn columnADULT_MALE;
+            
+            private global::System.Data.DataColumn columnADULT_FEMALE;
+            
+            private global::System.Data.DataColumn columnSENIOR_CITIZEN_MALE;
+            
+            private global::System.Data.DataColumn columnSENIOR_CITIZEN_FEMALE;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tbl_angelesDataTable() {
@@ -1819,6 +1843,102 @@ namespace skyetechCBHRAP {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn INFANT_MALEColumn {
+                get {
+                    return this.columnINFANT_MALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn INFANT_FEMALEColumn {
+                get {
+                    return this.columnINFANT_FEMALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn TODDLERColumn {
+                get {
+                    return this.columnTODDLER;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn TODDLER_MALEColumn {
+                get {
+                    return this.columnTODDLER_MALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn TODDLER_FEMALEColumn {
+                get {
+                    return this.columnTODDLER_FEMALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn CHILDColumn {
+                get {
+                    return this.columnCHILD;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn CHILD_MALEColumn {
+                get {
+                    return this.columnCHILD_MALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn CHILD_FEMALEColumn {
+                get {
+                    return this.columnCHILD_FEMALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn ADULT_MALEColumn {
+                get {
+                    return this.columnADULT_MALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn ADULT_FEMALEColumn {
+                get {
+                    return this.columnADULT_FEMALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn SENIOR_CITIZEN_MALEColumn {
+                get {
+                    return this.columnSENIOR_CITIZEN_MALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn SENIOR_CITIZEN_FEMALEColumn {
+                get {
+                    return this.columnSENIOR_CITIZEN_FEMALE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1854,7 +1974,26 @@ namespace skyetechCBHRAP {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public tbl_angelesRow Addtbl_angelesRow(string BRGYID, string BARANGAY, int INFANT, int ADULT, int SENIOR_CITIZEN, int MALE, int FEMALE) {
+            public tbl_angelesRow Addtbl_angelesRow(
+                        string BRGYID, 
+                        string BARANGAY, 
+                        int INFANT, 
+                        int ADULT, 
+                        int SENIOR_CITIZEN, 
+                        int MALE, 
+                        int FEMALE, 
+                        int INFANT_MALE, 
+                        int INFANT_FEMALE, 
+                        int TODDLER, 
+                        int TODDLER_MALE, 
+                        int TODDLER_FEMALE, 
+                        int CHILD, 
+                        int CHILD_MALE, 
+                        int CHILD_FEMALE, 
+                        int ADULT_MALE, 
+                        int ADULT_FEMALE, 
+                        int SENIOR_CITIZEN_MALE, 
+                        int SENIOR_CITIZEN_FEMALE) {
                 tbl_angelesRow rowtbl_angelesRow = ((tbl_angelesRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         BRGYID,
@@ -1863,7 +2002,19 @@ namespace skyetechCBHRAP {
                         ADULT,
                         SENIOR_CITIZEN,
                         MALE,
-                        FEMALE};
+                        FEMALE,
+                        INFANT_MALE,
+                        INFANT_FEMALE,
+                        TODDLER,
+                        TODDLER_MALE,
+                        TODDLER_FEMALE,
+                        CHILD,
+                        CHILD_MALE,
+                        CHILD_FEMALE,
+                        ADULT_MALE,
+                        ADULT_FEMALE,
+                        SENIOR_CITIZEN_MALE,
+                        SENIOR_CITIZEN_FEMALE};
                 rowtbl_angelesRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowtbl_angelesRow);
                 return rowtbl_angelesRow;
@@ -1900,6 +2051,18 @@ namespace skyetechCBHRAP {
                 this.columnSENIOR_CITIZEN = base.Columns["SENIOR CITIZEN"];
                 this.columnMALE = base.Columns["MALE"];
                 this.columnFEMALE = base.Columns["FEMALE"];
+                this.columnINFANT_MALE = base.Columns["INFANT MALE"];
+                this.columnINFANT_FEMALE = base.Columns["INFANT FEMALE"];
+                this.columnTODDLER = base.Columns["TODDLER"];
+                this.columnTODDLER_MALE = base.Columns["TODDLER MALE"];
+                this.columnTODDLER_FEMALE = base.Columns["TODDLER FEMALE"];
+                this.columnCHILD = base.Columns["CHILD"];
+                this.columnCHILD_MALE = base.Columns["CHILD MALE"];
+                this.columnCHILD_FEMALE = base.Columns["CHILD FEMALE"];
+                this.columnADULT_MALE = base.Columns["ADULT MALE"];
+                this.columnADULT_FEMALE = base.Columns["ADULT FEMALE"];
+                this.columnSENIOR_CITIZEN_MALE = base.Columns["SENIOR CITIZEN MALE"];
+                this.columnSENIOR_CITIZEN_FEMALE = base.Columns["SENIOR CITIZEN FEMALE"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1919,6 +2082,30 @@ namespace skyetechCBHRAP {
                 base.Columns.Add(this.columnMALE);
                 this.columnFEMALE = new global::System.Data.DataColumn("FEMALE", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnFEMALE);
+                this.columnINFANT_MALE = new global::System.Data.DataColumn("INFANT MALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINFANT_MALE);
+                this.columnINFANT_FEMALE = new global::System.Data.DataColumn("INFANT FEMALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINFANT_FEMALE);
+                this.columnTODDLER = new global::System.Data.DataColumn("TODDLER", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTODDLER);
+                this.columnTODDLER_MALE = new global::System.Data.DataColumn("TODDLER MALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTODDLER_MALE);
+                this.columnTODDLER_FEMALE = new global::System.Data.DataColumn("TODDLER FEMALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTODDLER_FEMALE);
+                this.columnCHILD = new global::System.Data.DataColumn("CHILD", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCHILD);
+                this.columnCHILD_MALE = new global::System.Data.DataColumn("CHILD MALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCHILD_MALE);
+                this.columnCHILD_FEMALE = new global::System.Data.DataColumn("CHILD FEMALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCHILD_FEMALE);
+                this.columnADULT_MALE = new global::System.Data.DataColumn("ADULT MALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnADULT_MALE);
+                this.columnADULT_FEMALE = new global::System.Data.DataColumn("ADULT FEMALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnADULT_FEMALE);
+                this.columnSENIOR_CITIZEN_MALE = new global::System.Data.DataColumn("SENIOR CITIZEN MALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSENIOR_CITIZEN_MALE);
+                this.columnSENIOR_CITIZEN_FEMALE = new global::System.Data.DataColumn("SENIOR CITIZEN FEMALE", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSENIOR_CITIZEN_FEMALE);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnBRGYID}, true));
                 this.columnBRGYID.AllowDBNull = false;
@@ -16278,6 +16465,198 @@ namespace skyetechCBHRAP {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int INFANT_MALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.INFANT_MALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'INFANT MALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.INFANT_MALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int INFANT_FEMALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.INFANT_FEMALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'INFANT FEMALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.INFANT_FEMALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int TODDLER {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.TODDLERColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TODDLER\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.TODDLERColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int TODDLER_MALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.TODDLER_MALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TODDLER MALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.TODDLER_MALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int TODDLER_FEMALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.TODDLER_FEMALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TODDLER FEMALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.TODDLER_FEMALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int CHILD {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.CHILDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CHILD\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.CHILDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int CHILD_MALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.CHILD_MALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CHILD MALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.CHILD_MALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int CHILD_FEMALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.CHILD_FEMALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CHILD FEMALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.CHILD_FEMALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int ADULT_MALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.ADULT_MALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ADULT MALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.ADULT_MALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int ADULT_FEMALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.ADULT_FEMALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ADULT FEMALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.ADULT_FEMALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int SENIOR_CITIZEN_MALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.SENIOR_CITIZEN_MALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'SENIOR CITIZEN MALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.SENIOR_CITIZEN_MALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int SENIOR_CITIZEN_FEMALE {
+                get {
+                    try {
+                        return ((int)(this[this.tabletbl_angeles.SENIOR_CITIZEN_FEMALEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'SENIOR CITIZEN FEMALE\' in table \'tbl_angeles\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tabletbl_angeles.SENIOR_CITIZEN_FEMALEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsBARANGAYNull() {
                 return this.IsNull(this.tabletbl_angeles.BARANGAYColumn);
             }
@@ -16346,6 +16725,150 @@ namespace skyetechCBHRAP {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetFEMALENull() {
                 this[this.tabletbl_angeles.FEMALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsINFANT_MALENull() {
+                return this.IsNull(this.tabletbl_angeles.INFANT_MALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetINFANT_MALENull() {
+                this[this.tabletbl_angeles.INFANT_MALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsINFANT_FEMALENull() {
+                return this.IsNull(this.tabletbl_angeles.INFANT_FEMALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetINFANT_FEMALENull() {
+                this[this.tabletbl_angeles.INFANT_FEMALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsTODDLERNull() {
+                return this.IsNull(this.tabletbl_angeles.TODDLERColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetTODDLERNull() {
+                this[this.tabletbl_angeles.TODDLERColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsTODDLER_MALENull() {
+                return this.IsNull(this.tabletbl_angeles.TODDLER_MALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetTODDLER_MALENull() {
+                this[this.tabletbl_angeles.TODDLER_MALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsTODDLER_FEMALENull() {
+                return this.IsNull(this.tabletbl_angeles.TODDLER_FEMALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetTODDLER_FEMALENull() {
+                this[this.tabletbl_angeles.TODDLER_FEMALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsCHILDNull() {
+                return this.IsNull(this.tabletbl_angeles.CHILDColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetCHILDNull() {
+                this[this.tabletbl_angeles.CHILDColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsCHILD_MALENull() {
+                return this.IsNull(this.tabletbl_angeles.CHILD_MALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetCHILD_MALENull() {
+                this[this.tabletbl_angeles.CHILD_MALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsCHILD_FEMALENull() {
+                return this.IsNull(this.tabletbl_angeles.CHILD_FEMALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetCHILD_FEMALENull() {
+                this[this.tabletbl_angeles.CHILD_FEMALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsADULT_MALENull() {
+                return this.IsNull(this.tabletbl_angeles.ADULT_MALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetADULT_MALENull() {
+                this[this.tabletbl_angeles.ADULT_MALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsADULT_FEMALENull() {
+                return this.IsNull(this.tabletbl_angeles.ADULT_FEMALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetADULT_FEMALENull() {
+                this[this.tabletbl_angeles.ADULT_FEMALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsSENIOR_CITIZEN_MALENull() {
+                return this.IsNull(this.tabletbl_angeles.SENIOR_CITIZEN_MALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetSENIOR_CITIZEN_MALENull() {
+                this[this.tabletbl_angeles.SENIOR_CITIZEN_MALEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsSENIOR_CITIZEN_FEMALENull() {
+                return this.IsNull(this.tabletbl_angeles.SENIOR_CITIZEN_FEMALEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetSENIOR_CITIZEN_FEMALENull() {
+                this[this.tabletbl_angeles.SENIOR_CITIZEN_FEMALEColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -25866,10 +26389,22 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("SENIOR CITIZEN", "SENIOR CITIZEN");
             tableMapping.ColumnMappings.Add("MALE", "MALE");
             tableMapping.ColumnMappings.Add("FEMALE", "FEMALE");
+            tableMapping.ColumnMappings.Add("INFANT MALE", "INFANT MALE");
+            tableMapping.ColumnMappings.Add("INFANT FEMALE", "INFANT FEMALE");
+            tableMapping.ColumnMappings.Add("TODDLER", "TODDLER");
+            tableMapping.ColumnMappings.Add("TODDLER MALE", "TODDLER MALE");
+            tableMapping.ColumnMappings.Add("TODDLER FEMALE", "TODDLER FEMALE");
+            tableMapping.ColumnMappings.Add("CHILD", "CHILD");
+            tableMapping.ColumnMappings.Add("CHILD MALE", "CHILD MALE");
+            tableMapping.ColumnMappings.Add("CHILD FEMALE", "CHILD FEMALE");
+            tableMapping.ColumnMappings.Add("ADULT MALE", "ADULT MALE");
+            tableMapping.ColumnMappings.Add("ADULT FEMALE", "ADULT FEMALE");
+            tableMapping.ColumnMappings.Add("SENIOR CITIZEN MALE", "SENIOR CITIZEN MALE");
+            tableMapping.ColumnMappings.Add("SENIOR CITIZEN FEMALE", "SENIOR CITIZEN FEMALE");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.OleDb.OleDbCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = @"DELETE FROM `tbl_angeles` WHERE ((`BRGYID` = ?) AND ((? = 1 AND `BARANGAY` IS NULL) OR (`BARANGAY` = ?)) AND ((? = 1 AND `INFANT` IS NULL) OR (`INFANT` = ?)) AND ((? = 1 AND `ADULT` IS NULL) OR (`ADULT` = ?)) AND ((? = 1 AND `SENIOR CITIZEN` IS NULL) OR (`SENIOR CITIZEN` = ?)) AND ((? = 1 AND `MALE` IS NULL) OR (`MALE` = ?)) AND ((? = 1 AND `FEMALE` IS NULL) OR (`FEMALE` = ?)))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM `tbl_angeles` WHERE ((`BRGYID` = ?) AND ((? = 1 AND `BARANGAY` IS NULL) OR (`BARANGAY` = ?)) AND ((? = 1 AND `INFANT` IS NULL) OR (`INFANT` = ?)) AND ((? = 1 AND `ADULT` IS NULL) OR (`ADULT` = ?)) AND ((? = 1 AND `SENIOR CITIZEN` IS NULL) OR (`SENIOR CITIZEN` = ?)) AND ((? = 1 AND `ADULT FEMALE` IS NULL) OR (`ADULT FEMALE` = ?)) AND ((? = 1 AND `ADULT MALE` IS NULL) OR (`ADULT MALE` = ?)) AND ((? = 1 AND `CHILD` IS NULL) OR (`CHILD` = ?)) AND ((? = 1 AND `CHILD FEMALE` IS NULL) OR (`CHILD FEMALE` = ?)) AND ((? = 1 AND `CHILD MALE` IS NULL) OR (`CHILD MALE` = ?)) AND ((? = 1 AND `INFANT FEMALE` IS NULL) OR (`INFANT FEMALE` = ?)) AND ((? = 1 AND `INFANT MALE` IS NULL) OR (`INFANT MALE` = ?)) AND ((? = 1 AND `SENIOR CITIZEN FEMALE` IS NULL) OR (`SENIOR CITIZEN FEMALE` = ?)) AND ((? = 1 AND `SENIOR CITIZEN MALE` IS NULL) OR (`SENIOR CITIZEN MALE` = ?)) AND ((? = 1 AND `TODDLER` IS NULL) OR (`TODDLER` = ?)) AND ((? = 1 AND `TODDLER FEMALE` IS NULL) OR (`TODDLER FEMALE` = ?)) AND ((? = 1 AND `TODDLER MALE` IS NULL) OR (`TODDLER MALE` = ?)))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_BRGYID", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BRGYID", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_BARANGAY", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BARANGAY", global::System.Data.DataRowVersion.Original, true, null));
@@ -25880,33 +26415,72 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ADULT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_SENIOR_CITIZEN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN", global::System.Data.DataRowVersion.Original, true, null));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_SENIOR_CITIZEN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN", global::System.Data.DataRowVersion.Original, false, null));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "MALE", global::System.Data.DataRowVersion.Original, true, null));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "MALE", global::System.Data.DataRowVersion.Original, false, null));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "FEMALE", global::System.Data.DataRowVersion.Original, true, null));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_ADULT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ADULT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_ADULT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ADULT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_CHILD", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_CHILD", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_CHILD_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_CHILD_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_CHILD_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_CHILD_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_INFANT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_INFANT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_INFANT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_INFANT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_SENIOR_CITIZEN_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_SENIOR_CITIZEN_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_SENIOR_CITIZEN_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_SENIOR_CITIZEN_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_TODDLER", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_TODDLER", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_TODDLER_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_TODDLER_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_TODDLER_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_TODDLER_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER MALE", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.InsertCommand = new global::System.Data.OleDb.OleDbCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO `tbl_angeles` (`BRGYID`, `BARANGAY`, `INFANT`, `ADULT`, `SENIOR CITIZ" +
-                "EN`, `MALE`, `FEMALE`) VALUES (?, ?, ?, ?, ?, ?, ?)";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO `tbl_angeles` (`BRGYID`, `BARANGAY`, `INFANT`, `ADULT`, `SENIOR CITIZEN`, `ADULT FEMALE`, `ADULT MALE`, `CHILD`, `CHILD FEMALE`, `CHILD MALE`, `INFANT FEMALE`, `INFANT MALE`, `SENIOR CITIZEN FEMALE`, `SENIOR CITIZEN MALE`, `TODDLER`, `TODDLER FEMALE`, `TODDLER MALE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("BRGYID", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BRGYID", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("BARANGAY", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BARANGAY", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("INFANT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ADULT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("SENIOR_CITIZEN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN", global::System.Data.DataRowVersion.Current, false, null));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "MALE", global::System.Data.DataRowVersion.Current, false, null));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ADULT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ADULT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("CHILD", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("CHILD_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("CHILD_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("INFANT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("INFANT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("SENIOR_CITIZEN_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("SENIOR_CITIZEN_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("TODDLER", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("TODDLER_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("TODDLER_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER MALE", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand = new global::System.Data.OleDb.OleDbCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE `tbl_angeles` SET `BRGYID` = ?, `BARANGAY` = ?, `INFANT` = ?, `ADULT` = ?, `SENIOR CITIZEN` = ?, `MALE` = ?, `FEMALE` = ? WHERE ((`BRGYID` = ?) AND ((? = 1 AND `BARANGAY` IS NULL) OR (`BARANGAY` = ?)) AND ((? = 1 AND `INFANT` IS NULL) OR (`INFANT` = ?)) AND ((? = 1 AND `ADULT` IS NULL) OR (`ADULT` = ?)) AND ((? = 1 AND `SENIOR CITIZEN` IS NULL) OR (`SENIOR CITIZEN` = ?)) AND ((? = 1 AND `MALE` IS NULL) OR (`MALE` = ?)) AND ((? = 1 AND `FEMALE` IS NULL) OR (`FEMALE` = ?)))";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE `tbl_angeles` SET `BRGYID` = ?, `BARANGAY` = ?, `INFANT` = ?, `ADULT` = ?, `SENIOR CITIZEN` = ?, `ADULT FEMALE` = ?, `ADULT MALE` = ?, `CHILD` = ?, `CHILD FEMALE` = ?, `CHILD MALE` = ?, `INFANT FEMALE` = ?, `INFANT MALE` = ?, `SENIOR CITIZEN FEMALE` = ?, `SENIOR CITIZEN MALE` = ?, `TODDLER` = ?, `TODDLER FEMALE` = ?, `TODDLER MALE` = ? WHERE ((`BRGYID` = ?) AND ((? = 1 AND `BARANGAY` IS NULL) OR (`BARANGAY` = ?)) AND ((? = 1 AND `INFANT` IS NULL) OR (`INFANT` = ?)) AND ((? = 1 AND `ADULT` IS NULL) OR (`ADULT` = ?)) AND ((? = 1 AND `SENIOR CITIZEN` IS NULL) OR (`SENIOR CITIZEN` = ?)) AND ((? = 1 AND `ADULT FEMALE` IS NULL) OR (`ADULT FEMALE` = ?)) AND ((? = 1 AND `ADULT MALE` IS NULL) OR (`ADULT MALE` = ?)) AND ((? = 1 AND `CHILD` IS NULL) OR (`CHILD` = ?)) AND ((? = 1 AND `CHILD FEMALE` IS NULL) OR (`CHILD FEMALE` = ?)) AND ((? = 1 AND `CHILD MALE` IS NULL) OR (`CHILD MALE` = ?)) AND ((? = 1 AND `INFANT FEMALE` IS NULL) OR (`INFANT FEMALE` = ?)) AND ((? = 1 AND `INFANT MALE` IS NULL) OR (`INFANT MALE` = ?)) AND ((? = 1 AND `SENIOR CITIZEN FEMALE` IS NULL) OR (`SENIOR CITIZEN FEMALE` = ?)) AND ((? = 1 AND `SENIOR CITIZEN MALE` IS NULL) OR (`SENIOR CITIZEN MALE` = ?)) AND ((? = 1 AND `TODDLER` IS NULL) OR (`TODDLER` = ?)) AND ((? = 1 AND `TODDLER FEMALE` IS NULL) OR (`TODDLER FEMALE` = ?)) AND ((? = 1 AND `TODDLER MALE` IS NULL) OR (`TODDLER MALE` = ?)))";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("BRGYID", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BRGYID", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("BARANGAY", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BARANGAY", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("INFANT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ADULT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("SENIOR_CITIZEN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN", global::System.Data.DataRowVersion.Current, false, null));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "MALE", global::System.Data.DataRowVersion.Current, false, null));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ADULT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ADULT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("CHILD", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("CHILD_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("CHILD_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("INFANT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("INFANT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("SENIOR_CITIZEN_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("SENIOR_CITIZEN_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN MALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("TODDLER", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("TODDLER_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER FEMALE", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("TODDLER_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER MALE", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_BRGYID", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BRGYID", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_BARANGAY", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BARANGAY", global::System.Data.DataRowVersion.Original, true, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_BARANGAY", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "BARANGAY", global::System.Data.DataRowVersion.Original, false, null));
@@ -25916,10 +26490,30 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ADULT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_SENIOR_CITIZEN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN", global::System.Data.DataRowVersion.Original, true, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_SENIOR_CITIZEN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN", global::System.Data.DataRowVersion.Original, false, null));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "MALE", global::System.Data.DataRowVersion.Original, true, null));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "MALE", global::System.Data.DataRowVersion.Original, false, null));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "FEMALE", global::System.Data.DataRowVersion.Original, true, null));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_ADULT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ADULT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_ADULT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ADULT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ADULT MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_CHILD", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_CHILD", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_CHILD_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_CHILD_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_CHILD_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_CHILD_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "CHILD MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_INFANT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_INFANT_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_INFANT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_INFANT_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "INFANT MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_SENIOR_CITIZEN_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_SENIOR_CITIZEN_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_SENIOR_CITIZEN_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_SENIOR_CITIZEN_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "SENIOR CITIZEN MALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_TODDLER", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_TODDLER", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_TODDLER_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER FEMALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_TODDLER_FEMALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER FEMALE", global::System.Data.DataRowVersion.Original, false, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_TODDLER_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER MALE", global::System.Data.DataRowVersion.Original, true, null));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_TODDLER_MALE", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "TODDLER MALE", global::System.Data.DataRowVersion.Original, false, null));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -25935,8 +26529,7 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
             this._commandCollection = new global::System.Data.OleDb.OleDbCommand[1];
             this._commandCollection[0] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT BRGYID, BARANGAY, INFANT, ADULT, [SENIOR CITIZEN], MALE, FEMALE FROM tbl_a" +
-                "ngeles";
+            this._commandCollection[0].CommandText = @"SELECT BRGYID, BARANGAY, INFANT, ADULT, [SENIOR CITIZEN], MALE, FEMALE, [ADULT FEMALE], [ADULT MALE], CHILD, [CHILD FEMALE], [CHILD MALE], [INFANT FEMALE], [INFANT MALE], [SENIOR CITIZEN FEMALE], [SENIOR CITIZEN MALE], TODDLER, [TODDLER FEMALE], [TODDLER MALE] FROM tbl_angeles";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -25997,7 +26590,24 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(string Original_BRGYID, string Original_BARANGAY, global::System.Nullable<int> Original_INFANT, global::System.Nullable<int> Original_ADULT, global::System.Nullable<int> Original_SENIOR_CITIZEN, global::System.Nullable<int> Original_MALE, global::System.Nullable<int> Original_FEMALE) {
+        public virtual int Delete(
+                    string Original_BRGYID, 
+                    string Original_BARANGAY, 
+                    global::System.Nullable<int> Original_INFANT, 
+                    global::System.Nullable<int> Original_ADULT, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN, 
+                    global::System.Nullable<int> Original_ADULT_FEMALE, 
+                    global::System.Nullable<int> Original_ADULT_MALE, 
+                    global::System.Nullable<int> Original_CHILD, 
+                    global::System.Nullable<int> Original_CHILD_FEMALE, 
+                    global::System.Nullable<int> Original_CHILD_MALE, 
+                    global::System.Nullable<int> Original_INFANT_FEMALE, 
+                    global::System.Nullable<int> Original_INFANT_MALE, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN_FEMALE, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN_MALE, 
+                    global::System.Nullable<int> Original_TODDLER, 
+                    global::System.Nullable<int> Original_TODDLER_FEMALE, 
+                    global::System.Nullable<int> Original_TODDLER_MALE) {
             if ((Original_BRGYID == null)) {
                 throw new global::System.ArgumentNullException("Original_BRGYID");
             }
@@ -26036,21 +26646,101 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
                 this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[8].Value = global::System.DBNull.Value;
             }
-            if ((Original_MALE.HasValue == true)) {
+            if ((Original_ADULT_FEMALE.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[10].Value = ((int)(Original_MALE.Value));
+                this.Adapter.DeleteCommand.Parameters[10].Value = ((int)(Original_ADULT_FEMALE.Value));
             }
             else {
                 this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[10].Value = global::System.DBNull.Value;
             }
-            if ((Original_FEMALE.HasValue == true)) {
+            if ((Original_ADULT_MALE.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[11].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[12].Value = ((int)(Original_FEMALE.Value));
+                this.Adapter.DeleteCommand.Parameters[12].Value = ((int)(Original_ADULT_MALE.Value));
             }
             else {
                 this.Adapter.DeleteCommand.Parameters[11].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            if ((Original_CHILD.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[13].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[14].Value = ((int)(Original_CHILD.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[13].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            if ((Original_CHILD_FEMALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[15].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[16].Value = ((int)(Original_CHILD_FEMALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[15].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[16].Value = global::System.DBNull.Value;
+            }
+            if ((Original_CHILD_MALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[17].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[18].Value = ((int)(Original_CHILD_MALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[17].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[18].Value = global::System.DBNull.Value;
+            }
+            if ((Original_INFANT_FEMALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[19].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[20].Value = ((int)(Original_INFANT_FEMALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[19].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[20].Value = global::System.DBNull.Value;
+            }
+            if ((Original_INFANT_MALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[21].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[22].Value = ((int)(Original_INFANT_MALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[21].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[22].Value = global::System.DBNull.Value;
+            }
+            if ((Original_SENIOR_CITIZEN_FEMALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[23].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[24].Value = ((int)(Original_SENIOR_CITIZEN_FEMALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[23].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[24].Value = global::System.DBNull.Value;
+            }
+            if ((Original_SENIOR_CITIZEN_MALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[25].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[26].Value = ((int)(Original_SENIOR_CITIZEN_MALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[25].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[26].Value = global::System.DBNull.Value;
+            }
+            if ((Original_TODDLER.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[27].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[28].Value = ((int)(Original_TODDLER.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[27].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[28].Value = global::System.DBNull.Value;
+            }
+            if ((Original_TODDLER_FEMALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[29].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[30].Value = ((int)(Original_TODDLER_FEMALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[29].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[30].Value = global::System.DBNull.Value;
+            }
+            if ((Original_TODDLER_MALE.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[31].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[32].Value = ((int)(Original_TODDLER_MALE.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[31].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[32].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -26072,7 +26762,24 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string BRGYID, string BARANGAY, global::System.Nullable<int> INFANT, global::System.Nullable<int> ADULT, global::System.Nullable<int> SENIOR_CITIZEN, global::System.Nullable<int> MALE, global::System.Nullable<int> FEMALE) {
+        public virtual int Insert(
+                    string BRGYID, 
+                    string BARANGAY, 
+                    global::System.Nullable<int> INFANT, 
+                    global::System.Nullable<int> ADULT, 
+                    global::System.Nullable<int> SENIOR_CITIZEN, 
+                    global::System.Nullable<int> ADULT_FEMALE, 
+                    global::System.Nullable<int> ADULT_MALE, 
+                    global::System.Nullable<int> CHILD, 
+                    global::System.Nullable<int> CHILD_FEMALE, 
+                    global::System.Nullable<int> CHILD_MALE, 
+                    global::System.Nullable<int> INFANT_FEMALE, 
+                    global::System.Nullable<int> INFANT_MALE, 
+                    global::System.Nullable<int> SENIOR_CITIZEN_FEMALE, 
+                    global::System.Nullable<int> SENIOR_CITIZEN_MALE, 
+                    global::System.Nullable<int> TODDLER, 
+                    global::System.Nullable<int> TODDLER_FEMALE, 
+                    global::System.Nullable<int> TODDLER_MALE) {
             if ((BRGYID == null)) {
                 throw new global::System.ArgumentNullException("BRGYID");
             }
@@ -26103,17 +26810,77 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
             else {
                 this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
-            if ((MALE.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[5].Value = ((int)(MALE.Value));
+            if ((ADULT_FEMALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[5].Value = ((int)(ADULT_FEMALE.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
             }
-            if ((FEMALE.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[6].Value = ((int)(FEMALE.Value));
+            if ((ADULT_MALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[6].Value = ((int)(ADULT_MALE.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
+            }
+            if ((CHILD.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[7].Value = ((int)(CHILD.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
+            }
+            if ((CHILD_FEMALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[8].Value = ((int)(CHILD_FEMALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
+            }
+            if ((CHILD_MALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[9].Value = ((int)(CHILD_MALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
+            }
+            if ((INFANT_FEMALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[10].Value = ((int)(INFANT_FEMALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            if ((INFANT_MALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[11].Value = ((int)(INFANT_MALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            if ((SENIOR_CITIZEN_FEMALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[12].Value = ((int)(SENIOR_CITIZEN_FEMALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            if ((SENIOR_CITIZEN_MALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[13].Value = ((int)(SENIOR_CITIZEN_MALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            if ((TODDLER.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[14].Value = ((int)(TODDLER.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            if ((TODDLER_FEMALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[15].Value = ((int)(TODDLER_FEMALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            if ((TODDLER_MALE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[16].Value = ((int)(TODDLER_MALE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[16].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -26135,7 +26902,41 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string BRGYID, string BARANGAY, global::System.Nullable<int> INFANT, global::System.Nullable<int> ADULT, global::System.Nullable<int> SENIOR_CITIZEN, global::System.Nullable<int> MALE, global::System.Nullable<int> FEMALE, string Original_BRGYID, string Original_BARANGAY, global::System.Nullable<int> Original_INFANT, global::System.Nullable<int> Original_ADULT, global::System.Nullable<int> Original_SENIOR_CITIZEN, global::System.Nullable<int> Original_MALE, global::System.Nullable<int> Original_FEMALE) {
+        public virtual int Update(
+                    string BRGYID, 
+                    string BARANGAY, 
+                    global::System.Nullable<int> INFANT, 
+                    global::System.Nullable<int> ADULT, 
+                    global::System.Nullable<int> SENIOR_CITIZEN, 
+                    global::System.Nullable<int> ADULT_FEMALE, 
+                    global::System.Nullable<int> ADULT_MALE, 
+                    global::System.Nullable<int> CHILD, 
+                    global::System.Nullable<int> CHILD_FEMALE, 
+                    global::System.Nullable<int> CHILD_MALE, 
+                    global::System.Nullable<int> INFANT_FEMALE, 
+                    global::System.Nullable<int> INFANT_MALE, 
+                    global::System.Nullable<int> SENIOR_CITIZEN_FEMALE, 
+                    global::System.Nullable<int> SENIOR_CITIZEN_MALE, 
+                    global::System.Nullable<int> TODDLER, 
+                    global::System.Nullable<int> TODDLER_FEMALE, 
+                    global::System.Nullable<int> TODDLER_MALE, 
+                    string Original_BRGYID, 
+                    string Original_BARANGAY, 
+                    global::System.Nullable<int> Original_INFANT, 
+                    global::System.Nullable<int> Original_ADULT, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN, 
+                    global::System.Nullable<int> Original_ADULT_FEMALE, 
+                    global::System.Nullable<int> Original_ADULT_MALE, 
+                    global::System.Nullable<int> Original_CHILD, 
+                    global::System.Nullable<int> Original_CHILD_FEMALE, 
+                    global::System.Nullable<int> Original_CHILD_MALE, 
+                    global::System.Nullable<int> Original_INFANT_FEMALE, 
+                    global::System.Nullable<int> Original_INFANT_MALE, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN_FEMALE, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN_MALE, 
+                    global::System.Nullable<int> Original_TODDLER, 
+                    global::System.Nullable<int> Original_TODDLER_FEMALE, 
+                    global::System.Nullable<int> Original_TODDLER_MALE) {
             if ((BRGYID == null)) {
                 throw new global::System.ArgumentNullException("BRGYID");
             }
@@ -26166,71 +26967,211 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
             else {
                 this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
-            if ((MALE.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(MALE.Value));
+            if ((ADULT_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(ADULT_FEMALE.Value));
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[5].Value = global::System.DBNull.Value;
             }
-            if ((FEMALE.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(FEMALE.Value));
+            if ((ADULT_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(ADULT_MALE.Value));
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
+            }
+            if ((CHILD.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(CHILD.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[7].Value = global::System.DBNull.Value;
+            }
+            if ((CHILD_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((int)(CHILD_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[8].Value = global::System.DBNull.Value;
+            }
+            if ((CHILD_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[9].Value = ((int)(CHILD_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
+            }
+            if ((INFANT_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((int)(INFANT_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            if ((INFANT_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((int)(INFANT_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            if ((SENIOR_CITIZEN_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((int)(SENIOR_CITIZEN_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            if ((SENIOR_CITIZEN_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((int)(SENIOR_CITIZEN_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            if ((TODDLER.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((int)(TODDLER.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            if ((TODDLER_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[15].Value = ((int)(TODDLER_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            if ((TODDLER_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[16].Value = ((int)(TODDLER_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
             }
             if ((Original_BRGYID == null)) {
                 throw new global::System.ArgumentNullException("Original_BRGYID");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[7].Value = ((string)(Original_BRGYID));
+                this.Adapter.UpdateCommand.Parameters[17].Value = ((string)(Original_BRGYID));
             }
             if ((Original_BARANGAY == null)) {
-                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((string)(Original_BARANGAY));
-            }
-            if ((Original_INFANT.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((int)(Original_INFANT.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
-            }
-            if ((Original_ADULT.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((int)(Original_ADULT.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
-            }
-            if ((Original_SENIOR_CITIZEN.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((int)(Original_SENIOR_CITIZEN.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
-            }
-            if ((Original_MALE.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((int)(Original_MALE.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[17].Value = global::System.DBNull.Value;
-            }
-            if ((Original_FEMALE.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[18].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[19].Value = ((int)(Original_FEMALE.Value));
-            }
-            else {
                 this.Adapter.UpdateCommand.Parameters[18].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[19].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[18].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[19].Value = ((string)(Original_BARANGAY));
+            }
+            if ((Original_INFANT.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[21].Value = ((int)(Original_INFANT.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[21].Value = global::System.DBNull.Value;
+            }
+            if ((Original_ADULT.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[22].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[23].Value = ((int)(Original_ADULT.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[22].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[23].Value = global::System.DBNull.Value;
+            }
+            if ((Original_SENIOR_CITIZEN.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[24].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[25].Value = ((int)(Original_SENIOR_CITIZEN.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[24].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[25].Value = global::System.DBNull.Value;
+            }
+            if ((Original_ADULT_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[26].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[27].Value = ((int)(Original_ADULT_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[26].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[27].Value = global::System.DBNull.Value;
+            }
+            if ((Original_ADULT_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[28].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[29].Value = ((int)(Original_ADULT_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[28].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[29].Value = global::System.DBNull.Value;
+            }
+            if ((Original_CHILD.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[30].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[31].Value = ((int)(Original_CHILD.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[30].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[31].Value = global::System.DBNull.Value;
+            }
+            if ((Original_CHILD_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[32].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[33].Value = ((int)(Original_CHILD_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[32].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[33].Value = global::System.DBNull.Value;
+            }
+            if ((Original_CHILD_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[34].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[35].Value = ((int)(Original_CHILD_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[34].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[35].Value = global::System.DBNull.Value;
+            }
+            if ((Original_INFANT_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[36].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[37].Value = ((int)(Original_INFANT_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[36].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[37].Value = global::System.DBNull.Value;
+            }
+            if ((Original_INFANT_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[38].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[39].Value = ((int)(Original_INFANT_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[38].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[39].Value = global::System.DBNull.Value;
+            }
+            if ((Original_SENIOR_CITIZEN_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[40].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[41].Value = ((int)(Original_SENIOR_CITIZEN_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[40].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[41].Value = global::System.DBNull.Value;
+            }
+            if ((Original_SENIOR_CITIZEN_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[42].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[43].Value = ((int)(Original_SENIOR_CITIZEN_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[42].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[43].Value = global::System.DBNull.Value;
+            }
+            if ((Original_TODDLER.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[44].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[45].Value = ((int)(Original_TODDLER.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[44].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[45].Value = global::System.DBNull.Value;
+            }
+            if ((Original_TODDLER_FEMALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[46].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[47].Value = ((int)(Original_TODDLER_FEMALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[46].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[47].Value = global::System.DBNull.Value;
+            }
+            if ((Original_TODDLER_MALE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[48].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[49].Value = ((int)(Original_TODDLER_MALE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[48].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[49].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -26252,8 +27193,41 @@ namespace skyetechCBHRAP.cbhrapdatatestDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string BARANGAY, global::System.Nullable<int> INFANT, global::System.Nullable<int> ADULT, global::System.Nullable<int> SENIOR_CITIZEN, global::System.Nullable<int> MALE, global::System.Nullable<int> FEMALE, string Original_BRGYID, string Original_BARANGAY, global::System.Nullable<int> Original_INFANT, global::System.Nullable<int> Original_ADULT, global::System.Nullable<int> Original_SENIOR_CITIZEN, global::System.Nullable<int> Original_MALE, global::System.Nullable<int> Original_FEMALE) {
-            return this.Update(Original_BRGYID, BARANGAY, INFANT, ADULT, SENIOR_CITIZEN, MALE, FEMALE, Original_BRGYID, Original_BARANGAY, Original_INFANT, Original_ADULT, Original_SENIOR_CITIZEN, Original_MALE, Original_FEMALE);
+        public virtual int Update(
+                    string BARANGAY, 
+                    global::System.Nullable<int> INFANT, 
+                    global::System.Nullable<int> ADULT, 
+                    global::System.Nullable<int> SENIOR_CITIZEN, 
+                    global::System.Nullable<int> ADULT_FEMALE, 
+                    global::System.Nullable<int> ADULT_MALE, 
+                    global::System.Nullable<int> CHILD, 
+                    global::System.Nullable<int> CHILD_FEMALE, 
+                    global::System.Nullable<int> CHILD_MALE, 
+                    global::System.Nullable<int> INFANT_FEMALE, 
+                    global::System.Nullable<int> INFANT_MALE, 
+                    global::System.Nullable<int> SENIOR_CITIZEN_FEMALE, 
+                    global::System.Nullable<int> SENIOR_CITIZEN_MALE, 
+                    global::System.Nullable<int> TODDLER, 
+                    global::System.Nullable<int> TODDLER_FEMALE, 
+                    global::System.Nullable<int> TODDLER_MALE, 
+                    string Original_BRGYID, 
+                    string Original_BARANGAY, 
+                    global::System.Nullable<int> Original_INFANT, 
+                    global::System.Nullable<int> Original_ADULT, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN, 
+                    global::System.Nullable<int> Original_ADULT_FEMALE, 
+                    global::System.Nullable<int> Original_ADULT_MALE, 
+                    global::System.Nullable<int> Original_CHILD, 
+                    global::System.Nullable<int> Original_CHILD_FEMALE, 
+                    global::System.Nullable<int> Original_CHILD_MALE, 
+                    global::System.Nullable<int> Original_INFANT_FEMALE, 
+                    global::System.Nullable<int> Original_INFANT_MALE, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN_FEMALE, 
+                    global::System.Nullable<int> Original_SENIOR_CITIZEN_MALE, 
+                    global::System.Nullable<int> Original_TODDLER, 
+                    global::System.Nullable<int> Original_TODDLER_FEMALE, 
+                    global::System.Nullable<int> Original_TODDLER_MALE) {
+            return this.Update(Original_BRGYID, BARANGAY, INFANT, ADULT, SENIOR_CITIZEN, ADULT_FEMALE, ADULT_MALE, CHILD, CHILD_FEMALE, CHILD_MALE, INFANT_FEMALE, INFANT_MALE, SENIOR_CITIZEN_FEMALE, SENIOR_CITIZEN_MALE, TODDLER, TODDLER_FEMALE, TODDLER_MALE, Original_BRGYID, Original_BARANGAY, Original_INFANT, Original_ADULT, Original_SENIOR_CITIZEN, Original_ADULT_FEMALE, Original_ADULT_MALE, Original_CHILD, Original_CHILD_FEMALE, Original_CHILD_MALE, Original_INFANT_FEMALE, Original_INFANT_MALE, Original_SENIOR_CITIZEN_FEMALE, Original_SENIOR_CITIZEN_MALE, Original_TODDLER, Original_TODDLER_FEMALE, Original_TODDLER_MALE);
         }
     }
     
